@@ -7,4 +7,4 @@ Creating secret for certs for ingress controller
 kubectl create secret tls ingress-certs  --key ingress.key --cert ingress.crt  
 ```
 
-Auth mechansim:
+Auth mechansim
