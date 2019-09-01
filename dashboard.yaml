@@ -153,8 +153,6 @@ spec:
     spec:
       containers:
       - args: 
-        - --authentication-mode=basic
-        - --enable-skip-login
         - --namespace=kubernetes-dashboard
         image: kubernetesui/dashboard:v2.0.0-beta3
         imagePullPolicy: Always
